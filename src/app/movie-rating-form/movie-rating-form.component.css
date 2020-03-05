@@ -1,0 +1,13 @@
+@import url('https://unpkg.com/bootstrap');
+
+/* Example: coloring the left border to indicate validity */
+input.ng-touched { border-left: 5px solid orange; }
+
+.ng-valid[required], .ng-valid.required {
+	border-left: 5px solid #42A948; /* green */ }
+
+input.ng-invalid {
+	border-left: 5px solid #a94442; /* red */ }
+
+button[disabled] { background-color: #ddd; border-color: #ccc; }
+button[disabled]:hover { cursor: not-allowed; }
