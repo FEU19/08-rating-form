@@ -1,5 +1,31 @@
 @import url('https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css');
 
+.form-group {
+	border: 1px solid lightgray;
+	border-radius: 0.3em;
+	padding: 0.4em;
+	margin: 0.5rem;
+	background-color: #f4f4f4;
+}
+.error-message {
+	color: #721c24;
+	background-color: #f8d7da;
+	border-color: #f5c6cb;
+	border: 1px solid transparent;
+    border-radius: .25rem;
+	padding: 0.2em;
+	/* margin: 0.5em */
+}
+
+input {
+	border-left-width: 5px;
+	display: block;
+}
+label {display: block;}
+.form-row {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
 
 /* Example: coloring the left border to indicate validity */
 input.ng-touched { border-left: 5px solid orange; }

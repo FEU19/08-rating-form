@@ -15,4 +15,7 @@ export class MovieRatingFormComponent implements OnInit {
 		this.model = new MovieRating('Hellraiser', 5, 'ninjatroll', 'Lika bra som Angular!!');
 	}
 
+	// for debugging purposes
+	get diagnostic() { return JSON.stringify(this.model); }
+
 }
